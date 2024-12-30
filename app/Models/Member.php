@@ -15,4 +15,9 @@ class Member extends Model
         'email',
         'phone',
     ];
+
+    public function borrowings()
+    {
+        return $this->hasMany(Borrowing::class);
+    }
 }
