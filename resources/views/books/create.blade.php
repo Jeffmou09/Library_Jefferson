@@ -11,8 +11,8 @@
     <div class="navbar">
         <div class="logo">Library System</div>
         <div class="menu">
-            <a href="/">Books</a>
-            <a href="/members" class="active">Members</a>
+            <a href="/" class="active">Books</a>
+            <a href="/members">Members</a>
             <a href="/borrowings">Borrowings</a>
         </div>
     </div>
